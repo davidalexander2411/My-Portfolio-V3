@@ -9,7 +9,7 @@ export default function Home() {
     <>
     <div className="h-screen w-screen grays">
       <div className="pt-32 px-64 flex flex-col gap-3">
-        <div className="inter-bold text-6xl">
+        <div className="inter-bold text-5xl">
           <h1 className="mr-2">
             David Alexander,
           </h1> 
