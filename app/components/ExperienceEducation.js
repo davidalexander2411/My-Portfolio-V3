@@ -33,8 +33,8 @@
         ];
         return (
             <>
-                <div className="w-full flex flex-col justify-center items-center gap-4 p-24">
-                    <div className='w-[700px] flex flex-col justify-center items-center gap-4'>
+                <div className="w-full flex flex-col justify-center items-center gap-4 pt-20">
+                    <div className='w-full flex flex-col justify-center items-center gap-4'>
                         <div className="w-full h-8 grays2bg text-white flex justify-center p-1 rounded-lg">
                             <div className='w-1/2 flex justify-center'>
                                 <button 
@@ -54,7 +54,7 @@
                         </div>
                         <div 
                             key={activeSection}
-                            className={`w-full border-[1px] inter border-white rounded-lg 
+                            className={`w-full border-[1px] inter grays2border rounded-lg 
                                         ${activeSection === 'Education' || 'Experience' ? `animate-fade-in` : ``}`}
                             >{(activeSection === 'Experience' ? ExperienceData : EducationData).map((item, index) => (
                                 <div key={index} className="flex items-center p-4 gap-2">

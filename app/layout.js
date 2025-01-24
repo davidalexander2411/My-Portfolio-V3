@@ -4,7 +4,7 @@ import './globals.css' // Import Tailwind CSS
 
 const inter = Inter({ 
   subsets: ['latin'],
-  weight: ['400', '600'] 
+  weight: ['500', '600', '700'] 
 })
 
 export const metadata = {

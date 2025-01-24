@@ -27,7 +27,7 @@
 }
 
 .animate-fade-in {
-  animation: fade-in 0.5s ease-out forwards;
+  animation: fade-in 0.5  s ease-out forwards;
 }
 
 
@@ -41,12 +41,35 @@ body {
   background-color: rgb(23, 23, 23)
 }
 
+.grays3 {
+  color: rgb(46, 46, 46)
+}
+
+.grays3bg {
+  background-color: rgb(35, 35, 35)
+}
+
+.grays3border {
+  border-color: rgb(46, 46, 46)
+}
+
+.grays2border {
+  border-color: rgb(133,133,133)
+}
+
 .grays2 {
   color: rgb(133,133,133)
 }
 
 .grays2bg {
   background-color: rgb(133,133,133)
+}
+
+.inter-extrabold {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .inter-bold {
@@ -59,6 +82,6 @@ body {
 .inter {
   font-family: "Inter", serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
 }
