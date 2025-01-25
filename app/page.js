@@ -5,7 +5,8 @@ import TechStack from './components/TechStack';
 import { FaInstagram } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io";
 import { AiOutlineLinkedin } from "react-icons/ai";
-import Footers from './components/Footers'
+import Footers from './components/Footers';
+import Projects from './components/Projects';
 
 export default function Home() {
   return (
@@ -40,6 +41,7 @@ export default function Home() {
           </div>
           <ExperienceEducation />
           <TechStack />
+          <Projects />
         </div>
       </div>
       <Footers />

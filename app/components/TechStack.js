@@ -46,9 +46,9 @@ function TechStackItem({ icon, name }) {
 
 function TechStack() {
   return(
-    <div className="pt-16 pb-32">
-      <h1 className="inter-extrabold text-[36px]">Tech Stack</h1>
-      <h1 className="grays2 text-lg py-3">Tools, resources and software I use.</h1>
+    <div className="pt-16">
+      <h1 className="inter-extrabold text-[32px]">Tech Stack</h1>
+      <h1 className="grays2 text-base pb-4">Tools, resources and software I use.</h1>
       <div className="w-full border-2 grays3border p-8 flex flex-col gap-4 select-none rounded-md">
         <div className="flex flex-row gap-5">
           <TechStackItem icon={<FaHtml5 />} name="HTML"/>
