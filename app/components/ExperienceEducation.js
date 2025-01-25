@@ -59,7 +59,7 @@
                                         ${activeSection === 'Education' || 'Experience' ? `animate-fade-in` : ``}`}
                             >{(activeSection === 'Experience' ? ExperienceData : EducationData).map((item, index) => (
                                 <div key={index} className="flex items-center p-4 gap-3">
-                                    <Image src={item.photo} className='w-10 h-10'/>
+                                    <Image src={item.photo} width={300} height={300} alt="Logo" className='w-10 h-10'/>
                                     <div>
                                         <h1 className='text-xs grays2'>{item.duration}</h1>
                                         <h1 className='text-md inter-bold'>{item.institution}</h1>
