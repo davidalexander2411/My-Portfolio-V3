@@ -19,7 +19,7 @@ export default function Home() {
             </h1> 
             <div className="flex pt-3">
               <h1 className="mr-3">
-                Front-End
+                Full-Stack
               </h1>
               <h1 className="grays2">
                 Developer.
