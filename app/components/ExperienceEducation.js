@@ -20,7 +20,7 @@
             {
                 institution: "University of Indonesia",
                 study: "Bachelor of Computer Engineering",
-                duration: "Aug 2024 - Now",
+                duration: "Aug 2024 - Present",
                 photo: "/img/UI.png"
 
             },
