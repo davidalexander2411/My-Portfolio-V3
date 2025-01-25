@@ -1,6 +1,7 @@
     "use client";
     import React, { useState } from 'react';
-    import { IoLocationOutline, IoSchoolOutline, IoBusinessOutline } from 'react-icons/io5';
+    import { IoLocationOutline, IoSchoolOutline, IoBusinessOutline, IoImage } from 'react-icons/io5';
+    import Image from 'next/image';
    
 
     const ExperienceEducation = () => {
@@ -11,7 +12,7 @@
                 title: "Software Developer Intern",
                 institution: "Exercise FTUI",
                 duration: "Oct 2024 - Nov 2024",
-                photo: "/img/exercise.png"
+                photo: "/img/Exercise.png"
             }
         ];
 
@@ -33,7 +34,7 @@
         ];
         return (
             <>
-                <div className="w-full flex flex-col justify-center items-center gap-4 pt-20">
+                <div className="w-full flex flex-col justify-center items-center gap-4 pt-16">
                     <div className='w-full flex flex-col justify-center items-center gap-4'>
                         <div className="w-full h-8 grays2bg text-white flex justify-center p-1 rounded-lg">
                             <div className='w-1/2 flex justify-center'>
@@ -57,8 +58,8 @@
                             className={`w-full border-[1px] inter grays2border rounded-lg 
                                         ${activeSection === 'Education' || 'Experience' ? `animate-fade-in` : ``}`}
                             >{(activeSection === 'Experience' ? ExperienceData : EducationData).map((item, index) => (
-                                <div key={index} className="flex items-center p-4 gap-2">
-                                    <img src={item.photo} className='w-10 h-10'></img>
+                                <div key={index} className="flex items-center p-4 gap-3">
+                                    <Image src={item.photo} className='w-10 h-10'/>
                                     <div>
                                         <h1 className='text-xs grays2'>{item.duration}</h1>
                                         <h1 className='text-md inter-bold'>{item.institution}</h1>
